@@ -1,0 +1,28 @@
+h1{
+    color: rgb(0, 95, 158);
+}
+
+.first>h2{
+    color: rgb(253, 81, 18);
+}
+.second>h2{
+    color: darkgreen;
+}
+
+.first{
+    background-color: aqua;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.second{
+    background-color: burlywood;
+}
+body{
+    background-color: antiquewhite;
+    padding: 50px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: rgb(118, 118, 126);
+}

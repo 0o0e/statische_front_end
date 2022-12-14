@@ -1,11 +1,12 @@
 body{
     background-color: rgb(184, 215, 215);
     font-family: cursive;
-
 }
+
 h1,h2,h3,h4{
     color: #06253b;
 }
+
 h1{
     background-color: rgb(164, 173, 179);
     margin: 10px;
@@ -18,8 +19,6 @@ div{
     margin: 10px;
     padding: 10px;
     background-color: rgb(173, 197, 187);
-    height: 100px;
-    width: 10;
     border-radius: 10px;
   }
 
@@ -30,16 +29,18 @@ nav{
     list-style-type:none;
     margin:0;
     padding:0;
-    background-color: #b4cbdc;
-    
+    }
+ul{
+    padding: 8px;
+    list-style-type: none;
+    background-color: #d9d3d3;
 }
 
 li{
-    float: left;
+    display: inline;
 }
 
 a {
-    padding: 8px;
     background-color: #d9d3d3;
   }
 
