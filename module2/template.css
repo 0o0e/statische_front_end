@@ -1,0 +1,52 @@
+h1{
+    color: rgb(0, 95, 158);
+}
+
+.first>h2{
+    color: rgb(253, 81, 18);
+}
+.second>h2{
+    color: darkgreen;
+}
+
+.first{
+    background-color: aqua;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.second{
+    background-color: burlywood;
+}
+body{
+    background-color: antiquewhite;
+    padding: 50px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: rgb(118, 118, 126);
+}
+
+/* 
+@media screen and (min-width: 0px) and (max-width: 575px)  {
+    body {
+        background-color: rgb(255, 0, 0), 0;
+        }
+}
+    
+@media screen and (min-width: 576px)  {
+    body {
+        background-color: rgb(74, 221, 38), 0;
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    body {
+        background-color: rgb(79, 171, 200), 0;
+    }
+}
+@media screen and (max-width: 992px )  {
+    body {
+        background-color: rgb(255, 140, 0), 0;
+    }
+} */
