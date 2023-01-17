@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(184, 215, 215);
+    background-color: rgb(0, 91, 42);
     font-family: cursive;
 }
 
@@ -23,7 +23,7 @@ div{
   }
 
 a:hover{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 nav{
     list-style-type:none;
@@ -44,3 +44,20 @@ a {
     background-color: #d9d3d3;
   }
 
+@media screen and (min-width: 0px) and (max-width: 575px)  {
+body {
+    background-color: rgb(255, 0, 0), 0;
+    }
+    }
+
+@media screen and (min-width: 576px)  {
+    body {
+        background-color: rgb(0, 255, 153), 0;
+    }
+    }
+
+@media screen and (max-width: 768px)  {
+    body {
+        background-color: rgb(255, 0, 0), 0;
+    }
+    }

@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+
+
+
+@media all and (max-width: 575px)  {
+    body {
+        background-color: red;
+    }
+}
+    
+@media all and (min-width: 576px)  {
+    body {
+        background-color: green;
+    }
+}
+
+@media all and (min-width: 768px)  {
+    body {
+        background-color: blue;
+    }
+    }
+@media all and (min-width: 992px )  {
+    body {
+        background-color: orange;
+    }
+    }
