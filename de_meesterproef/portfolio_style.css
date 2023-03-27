@@ -1,7 +1,6 @@
 html{
 	font-family: verdana;
 	font-size: 20px;
-	background-color: rgb(196, 203, 213);
 }
 
 /* 
@@ -19,17 +18,65 @@ body{
 }
 
 
-#pfp{
-	margin: 50px;
-}
+
 #elem1{
 	/* padding: 40px; */
-	margin: 40px;
-	margin-top: 190px;
+	/* margin: 40px; */
+	/* margin-top: 190px; */
 
-	font-size: 200%;
+	font-size: 250px;
 
 }
+span {
+	/* display: inline-block; */
+	margin: 70px;
+	font-size: 40px;
+}
+
+p{
+	font-size: 35px;
+}
+
+.text_box {
+	background-color: rgb(210, 210, 210);
+	width: auto;
+	height: auto;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.text_box p{
+	margin-left: 30px;
+
+}
+  
+
+
+
+/* 
+header {
+	height: 75px;
+} */
+
+header nav {
+	float: left;
+}
+
+header nav ul li {
+	display:grid;
+	margin-top: 3%;
+}
+header nav ul li a {
+	color: #444444;
+	font-weight: bold;
+	display: block;
+}
+header nav ul li:last-child a {
+	text-transform: uppercase;
+	float:unset;
+}
+
 /* 
 #elem2{
 	background-color: orange;
