@@ -42,22 +42,47 @@ p{
 	width: auto;
 	height: auto;
 	padding: 10px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
+	border-radius: 35px;
 }
 .text_box p{
 	margin-left: 30px;
 
 }
-  
 
+.list_educations {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
 
+.container_text_box_ed h1, h3,h2, h4{
+	margin: 20px;
+	margin-top: 40px;
+	margin-left: 30px;
+	
+}
+.container_text_box_ed p{
+	margin: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.container_text_box_ed {
+	background-color: rgb(231, 224, 224);
+	width: auto;
+	height: auto;
+	padding: 10px;
+	/* margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 35px; */
+}
 
-/* 
-header {
-	height: 75px;
-} */
+#software_image{
+	margin-top: 20px;
+}
 
 header nav {
 	float: left;
@@ -77,16 +102,3 @@ header nav ul li:last-child a {
 	float:unset;
 }
 
-/* 
-#elem2{
-	background-color: orange;
-}
-#elem4{
-	background-color: green;
-}
-#elem5{
-	background-color: blue;
-}
-#sub *{
-	background-color:yellow;
-} */
