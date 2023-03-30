@@ -10,7 +10,7 @@ html{
 
 
 body{
-	background-color: aqua;
+	background-color: rgb(8, 29, 29);
 }
 
 #sub *{
@@ -53,9 +53,12 @@ p{
 }
 
 .list_educations {
+	padding-top: 20px;
+	background-color: rgb(236, 238, 241);
+	/* border-radius: 35px; */
 	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	/* margin-left: 50px; */
+	margin-right: -50px;
 }
 
 .container_text_box_ed h1, h3,h2, h4{
