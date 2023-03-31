@@ -38,7 +38,7 @@ p{
 }
 
 .text_box {
-	background-color: rgb(210, 210, 210);
+	background-color: rgb(231, 224, 224);
 	width: auto;
 	height: auto;
 	padding: 10px;
@@ -105,3 +105,10 @@ header nav ul li:last-child a {
 	float:unset;
 }
 
+.list_links{
+	text-align: center;
+	background-color: #ecdfdf;
+	width: auto;
+	height: auto;
+	padding-top: 25px;
+}
