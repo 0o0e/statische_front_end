@@ -48,6 +48,7 @@ p{
 
 }
 
+
 .list_educations {
 	padding-top: 20px;
 	background-color: rgb(236, 238, 241);
@@ -76,9 +77,7 @@ p{
 
 }
 
-#software_image{
-	margin-top: 20px;
-}
+
 
 header nav {
 	float: left;
