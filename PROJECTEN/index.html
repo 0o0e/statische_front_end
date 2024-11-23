@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box" onclick="window.location.href='test-chart.html'">
+
+            <canvas id="barChart" width="400" height="200"></canvas>
+        </div>
+        <div class="box" onclick="window.location.href='line-chart.html'">Linear Grafiek</div>
+        <div class="box" onclick="window.location.href='pie-chart.html'">Cirkeldiagram</div>
+        
+        <div id="small-dynamic-box" class="box"onclick="window.location.href='test-sections.html'">
+            <p>Klik op een section button hieronder</p>
+        </div>
+
+        <div id="main-section" class="box-large" onclick="window.location.href='all-errors.html'">
+            <h2>All Errors</h2>
+            <ul>
+                <li>ERROR 123</li>
+                <li>ERROR 456</li>
+                <li>ERROR 789</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <button onclick="updateSmallBox('Section 1 Content')">Section 1</button>
+            <button onclick="updateSmallBox('Section 2 Content')">Section 2</button>
+            <button onclick="updateSmallBox('Section 3 Content')">Section 3</button>
+            <button onclick="updateSmallBox('Section 4 Content')">Section 4</button>
+        </div>
+    </div>
+
+    <script>
+        function updateSmallBox(content) {
+            document.getElementById('small-dynamic-box').innerHTML = `<p>${content}</p>`;
+        }
+        
+
+    </script>
+</body>
+</html>
